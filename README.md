@@ -8,8 +8,8 @@ Toggle Bluetooth connection of Apple Magic devices with a single command
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Add Quick Action](#add-quick-action-to-the-menu-bar-with-automator-optional)
-- [Add Keyboard Shortcut](#add-a-keyboard-shortcut-optional)
+- [Add Quick Action (optional)](#add-quick-action-to-the-menu-bar-with-automator-optional)
+- [Add Keyboard Shortcut (optional)](#add-a-keyboard-shortcut-optional)
 - [Requirements](#requirements)
 - [Motivation](#motivation)
 - [Troubleshooting](#troubleshooting)
@@ -19,7 +19,7 @@ Toggle Bluetooth connection of Apple Magic devices with a single command
 ## Description
 AppleMagicSwitcher is a simple shell script that allows you to easily toggle the connection to your Apple Magic devices (keyboard, mouse, trackpad) via Bluetooth on macOS.
 
-Normally an Apple Magic device can only be connected to one Mac device. You would need to connect the lightning cable to pair your Magic device to another Mac.
+Normally an Apple Magic device can only be connected to one Mac device. You would need to connect the lightning or USB cable to pair your Magic device to another Mac.
 
 This script works like a toggle:
 - If the Magic device is connected, it will disconnect
@@ -102,7 +102,7 @@ After saving the Quick Action, you can assign a keyboard shortcut:
 - [**Homebrew**](https://brew.sh/) (for installing blueutil)
 
 ## Motivation
-I was looking for a simple way to switch my Magic keyboard between different MacBooks without using a lightning cable.
+I was looking for a simple way to switch my Magic keyboard between different MacBooks without using a lightning or USB cable.
 There are several ways to achieve this. There are paid apps and also open source solutions. My preference was using an open-source solution which is well-maintained. 
 That made me choose something based on blueutil. 
 I stumbled upon MonkeySwitcher which is an app. This app has blueutil embedded, but I wanted a solution that makes use of the most recent version of blueutil.
