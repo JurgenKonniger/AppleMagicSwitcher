@@ -114,7 +114,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Troubleshooting
 If you encounter issues with the script, try these steps:
 
-- **Turn your Magic device off and on with the toggle on the device itself.**
+- **Turn your Magic device off and on with the toggle on the device itself**
+If you cannot connect to the Magic device, try to turn if off and on with the switch on the device itself. In most cases this solves the connection issues.
 
 - **Check if blueutil is installed correctly**:
   ```bash
